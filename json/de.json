@@ -1,0 +1,61 @@
+{
+    "listas": {
+        "inicio":"Startseite",
+        "acerca":"Über",
+        "video":"Videos",
+        "servicio":"Service",
+        "contacto":"Kontakt"
+    },
+    "inicio": {
+        "titulo":"Willkommen bei El Cuy!",
+        "caja1":"Dies ist Ihre Quelle für köstliche peruanische Rezepte und hochwertige Kochzutaten.",
+        "caja2":"Ich präsentiere peruanische Gerichte wie Ceviche, Lomo Saltado, Pollo a la Brasa und Quinoa-Salat. Sie können mich auch als Koch in München und Umgebung engagieren.",
+        "mensaje":"Genießen Sie es!"
+    },
+    "acerca-de": {
+        "titulo":"Über El Cuy",
+        "descripcion":"Hallo, ich bin ein peruanischer Koch, der in München lebt, seine einheimische Küche liebt, lustige <a href=\"#videos\">Videos</a> erstellt und für Kochsitzungen zur Verfügung <a href=\"#videos\">steht</a>. Meine Lieblingsgerichte aus Peru sind Ceviche und Lomo Saltado."
+    },
+    "video": {
+        "titulo":"Videos und Rezepte",
+        "btn-youtube":"Youtube-Kanal: <img loading=\"lazy\" src=\"assents/svg/icons/youtube.svg\" alt=\"youtube\" class=\"youtube\">",
+        "card-btn":"anzeigen",
+        "card-preparacion":"Vorbereitung",
+        "card1-titulo":"Pollada",
+        "card2-titulo":"Fitness-Quinoa-Salat",
+        "card3-titulo":"Thunfisch mit Kartoffeln",
+        "card4-titulo":"Brot mit Schweinebauch",
+        "card5-titulo":"Pollo a la Brasa",
+        "card6-titulo":"Traditionelles Ceviche",
+        "card7-titulo":"Lomo Saltado",
+        "card8-titulo":"Gran Canaria Reise",
+        "card9-titulo":"Cusco in Perú",
+        "card10-titulo":"Wir kochen peruanisches Escabeche de Pescado aus Lima",
+        "receta-btn":"mehr anzeigen",
+        "card-titulo":"Titel:",
+        "receta1":"<p> Zutaten für 4 Personen: </p><br/><p>Marinade</p><ul><li>Öl</li><li>Essig</li><li>Salz und Pfeffer</li><li>Oregano</li><li>Knoblauch</li><li>Kreuzkümmel</li><li>Panca-Chili und Gelber Chili (getrocknete Paprika)</li></ul><br /><p>Salat</p><ul><li>Kohl</li><li>Möhren</li><li>2 Limetten</li><li>Salz und Pfeffer</li></ul><br /><p>Kartoffeln und ein ganzes Hähnchen.</p><br /><p>Zuerst das Hähnchen 2 Stunden lang in gesalzenem Wasser einweichen. Dann die Marinade mit einem Mixer zubereiten. Dafür habe ich die getrockneten Panca-Chilis etwa 5 Minuten gekocht, um sie weicher zu machen. Die Panca-Chilis mit 1 Tasse Öl, 1 Tasse Essig, Salz, Pfeffer, Kreuzkümmel und Oregano mixen. Ein Glas Bier wäre auch in Ordnung. Dann den Knoblauch hinzufügen und alles mixen.</p><br /><p>Das Hähnchen in 4 Stücke schneiden und marinieren.</p><br /><p>Nach mindestens 4 Stunden können Sie das Hähnchen grillen.</p><br /><p>Für den Salat einfach den Kohl hacken, die Möhren reiben, Salz, Pfeffer und Limettensaft hinzufügen.</p><br /><p>Mit gekochten Kartoffeln servieren.</p><br /><p>Guten Appetit!</p>",
+        "receta2":"<p>Zutaten:</p><ul><li>Quinoa</li><li>2 Limetten</li><li>Paprika</li><li>Frühlingszwiebeln</li><li>Koriander</li></ul>",
+        "receta3":"<p>Zutaten:</p><ul><li>1 Dose Thunfisch in Olivenöl</li><li>2 Limetten</li><li>1 rote Zwiebel</li><li>Koriander</li></ul>",
+        "receta4":"<p>Zutaten:</p><ul><li>800g Schweinebauch</li><li>2 Knoblauchzehen</li><li>Ingwer</li></ul>",
+        "receta5":"<ul><li>1 Hähnchen</li><li>5 Knoblauchzehen</li></ul>",
+        "receta6":"<ul><li>1 Hähnchen</li><li>5 Knoblauchzehen</li></ul>",
+        "receta7":"<p>Zutaten:</p><ul><li>1 Rinderfilet</li><li>3 Limetten</li><li>1 rote Zwiebel</li></ul>",
+        "receta8":" "
+    },
+    "servicio": {
+        "titulo":"Mein Angebot",
+        "descripcion-h2":"Ich kann für dich kochen!",
+        "descripcion-p":"Wenn Sie meine köstliche peruanische Küche genießen möchten und Ihnen etwas ganz Besonderes sind, nehmen Sie Kontakt mit mir auf. Ich stehe im Raum München zur Verfügung.", 
+    "evento": "Veranstaltungen",
+        "descripcion-evento":"<li>Familientreffen</li><li>Geburtstagsfeier</li><li>Hochzeitszeremonie</li><li>Firmenfeier, Weihnachtsfeier</li>",
+        "plantos":"Gerichte",
+        "descripcion-platos":"<p>Ich bespreche mit Ihnen ein schönes Menü für Ihre Veranstaltung mit einer großen Auswahl an Gerichten.</p><ul><li>Fleischgerichte: Huhn, Rind und Schwein</li><li>Fischgerichte</li><li>Vegetarische Gerichte - Ich kann auch Fleischgerichte durch einen Ersatz abändern</li><li>Suppen</li><li>Salate</li><li>Nachspeisen</li></ul><p>Auch peruanische Getränke und Cocktails werden angeboten. Ich stelle alle Zutaten zur Verfügung, auch solche, die nur in Fachgeschäften erhältlich sind.</p>",
+        "mensaje":"Es ist mir eine Ehre, für Sie zu kochen!"
+    },
+    "contacto": {
+        "titulo":"Kontaktieren Sie mich!"
+    },
+    "footer": {
+        "pie":"Alle Rechte vorbehalten El Cuy - 2024"
+    }
+}

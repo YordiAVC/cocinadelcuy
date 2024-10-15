@@ -1,0 +1,61 @@
+{
+    "listas":{
+        "inicio":"Home",
+        "acerca":"About",
+        "video":"Videos",
+        "servicio":"Service",
+        "contacto":"Contact"
+    },
+    "inicio":{
+        "titulo":"Welcome to El Cuy!",
+        "caja1":"This is your source for delicious Peruvian recipes and high-quality cooking ingredients.",
+        "caja2":"I showcase Peruvian dishes like Ceviche, Lomo Saltado, Pollo a la Brasa, and Quinoa Salad. You can also hire me as a chef in Munich and surrounding areas.",
+        "mensaje":"Enjoy!"
+    },
+    "acerca-de":{
+        "titulo":"About El Cuy",
+        "descripcion":"Hello, I'm a Peruvian chef living in Munich, passionate about my native food, creating fun <a href=\"#videos\">videos</a>, and available for cooking <a href=\"#videos\">sessions</a>. My favorite Peruvian dishes are Ceviche and Lomo Saltado."
+    },
+    "video":{
+        "titulo":"Videos and Recipes",
+        "btn-youtube":"Youtube Channel: <img loading=\"lazy\" src=\"assents/svg/icons/youtube.svg\" alt=\"youtube\" class=\"youtube\">",
+        "card-btn":"view",
+        "card-preparacion":"Preparation",
+        "card1-titulo":"Pollada",
+        "card2-titulo":"Fitness Quinoa Salad",
+        "card3-titulo":"Tuna with Potatoes",
+        "card4-titulo":"Bread with Pork Belly",
+        "card5-titulo":"Pollo a la Brasa",
+        "card6-titulo":"Traditional Ceviche",
+        "card7-titulo":"Lomo Saltado",
+        "card8-titulo":"Gran Canaria Trip",
+        "card9-titulo":"Cusco in Perú",
+        "card10-titulo":"We cook Peruvian escabeche de pescado from Lima",
+        "receta-btn":"show more",
+        "card-titulo":"Title:",
+        "receta1": "<p> Ingredients for 4 people: </p><br/><p>Marinade</p><ul><li>Oil</li><li>Vinegar</li><li>Salt and pepper</li><li>Oregano</li><li>Garlic</li><li>Cumin</li><li>Panca Chili and Yellow Chili (dried peppers)</li></ul><br /><p>Salad</p><ul><li>Cabbage</li><li>Carrots</li><li>2 limes</li><li>Salt and pepper</li></ul><br /><p>Potatoes and a whole chicken.</p><br /><p>First, soak the chicken in salted water for 2 hours. Then, prepare the marinade using a blender. Before that, I boiled the dried panca chili for about 5 minutes to soften them. Blend the panca chili with 1 cup of oil, 1 cup of vinegar, salt, pepper, cumin, and oregano. A glass of beer would also be fine. Then add the garlic and blend everything.</p><br /><p>Cut the chicken into 4 pieces and marinate them.</p><br /><p>After a minimum of 4 hours, you can grill the chicken.</p><br /><p>For the salad, simply chop the cabbage and grate the carrots, add salt, pepper, and lime juice.</p><br /><p>Serve with cooked potatoes.</p><br /><p>Enjoy your meal!</p>",
+        "receta2": "<p>Ingredients:</p><ul><li>Quinoa</li><li>2 Limes</li><li>Bell Pepper</li><li>Spring Onions</li><li>Cilantro</li></ul>",
+        "receta3": "<p>Ingredients:</p><ul><li>1 Can of Tuna in Olive Oil</li><li>2 Limes</li><li>1 Red Onion</li><li>Cilantro</li></ul>",
+        "receta4":"<p>Ingredients:</p><ul><li>800g Pork Belly</li><li>2 Garlic Cloves</li><li>Ginger</li></ul>",
+        "receta5":"<ul><li>1 Chicken</li><li>5 Garlic Cloves</li></ul>",
+        "receta6":"<ul><li>1 Chicken</li><li>5 Garlic Cloves</li></ul>",
+        "receta7":"<p>Ingredients:</p><ul><li>1 Beef Tenderloin</li><li>3 Limes</li><li>1 Red Onion</li></ul>",
+        "receta8":" "
+    },
+    "servicio":{
+        "titulo":"My Offer",
+        "descripcion-h2":"I Can Cook for You!",
+        "descripcion-p":"If you want to enjoy my delicious Peruvian food and you're something very special to me, get in touch. I'm available in the Munich area.",
+        "evento":"Events",
+        "descripcion-evento":"<li>Family Gathering</li><li>Birthday Party</li><li>Wedding Ceremony</li><li>Company Party, Christmas Party</li>",
+        "plantos":"Dishes",
+        "descripcion-platos":"<p>I discuss with you a beautiful menu for your event with a wide selection of dishes.</p><ul><li>Meat dishes: chicken, beef, and pork</li><li>Fish dishes</li><li>Vegetarian dishes - I can also modify meat dishes with a substitute</li><li>Soups</li><li>Salads</li><li>Desserts</li></ul><p>Peruvian drinks and cocktails are also offered. I provide all the ingredients, even those only available in specialty stores.</p>",
+        "mensaje":"It's an honor to cook for you!"
+    },
+    "contacto":{
+        "titulo":"Get in Touch!"
+    },
+    "footer":{
+        "pie":"All Rights Reserved El Cuy - 2024"
+    }
+}

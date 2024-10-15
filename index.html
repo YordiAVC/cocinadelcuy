@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>El Cuy</title>
+    
+</head>
+<body>
+    <!--========================================= HEADER ================================================== -->
+    <header class="header">
+        <div class="container_med nav">
+
+            <div class="logo">
+                <img loading="lazy" src="assents/img/imagenes/logo.png" alt="logo">
+            </div>
+
+            <nav class="nav_list">
+                <ul>
+                    <li class="list"><a href="#inicio" data-section="listas" data-value="inicio">Inicio</a></li>
+                    <li class="list"><a href="#acerca" data-section="listas" data-value="acerca">Acerca de</a></li>
+                    <li class="list"><a href="#videos" data-section="listas" data-value="video">Videos</a></li>
+                    <li class="list"><a href="#servicio" data-section="listas" data-value="servicio">Servicio</a></li>
+                    <li class="list"><a href="#contacto" data-section="listas" data-value="contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="lengua">
+                <p>Language:</p>
+                <div class="banderas" id="flags">
+                    <div data-language="es"><img src="assents/img/imagenes/banderaEspaña.png" alt="español"></div>
+                    <div data-language="de"><img src="assents/img/imagenes/banderaAlemania.png" alt="aleman"></div>
+                    <div data-language="en"><img src="assents/img/imagenes/banderaInglaterra.png" alt="ingles"></div>
+                </div>
+            </div>
+            <div class="boton_nav" onclick="alternarLista()">
+
+                <img class="barra" src="assents/svg/icons/bars-solid.svg" alt="barra">
+                <img class="cerrar_barra" src="assents/svg/icons/xmark-solid.svg" alt="cerrar_bara">
+            </div>
+        </div>
+    </header>
+     <!-- ======================================== BARRA ==================================================== -->
+    <div class="lista_desplegable" id="btn_lista_desplegable">
+        <div class="container_med">
+            <div class="desplegable_list">
+                <ul>
+                    <li class="list_despegable"><a href="#inicio" data-section="listas" data-value="inicio">Inicio</a></li>
+                    <li class="list_despegable"><a href="#acerca" data-section="listas" data-value="acerca">Acerca de</a></li>
+                    <li class="list_despegable"><a href="#videos" data-section="listas" data-value="video">Videos</a></li>
+                    <li class="list_despegable"><a href="#servicio" data-section="listas" data-value="servicio">Servicio</a></li>
+                    <li class="list_despegable"><a href="#contacto" data-section="listas" data-value="contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     <!-- ======================================== CARRUSEL ================================================= -->
+    <div class="carrusel">
+        <div class="container_med carrusel_med">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assents/img/backgrounds/fondoCarrusel.png" class="d-block w-100" alt="carrusel1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assents/img/backgrounds/fondoCarrusel.png" class="d-block w-100" alt="carrusel2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assents/img/backgrounds/fondoCarrusel.png" class="d-block w-100" alt="carrusel3">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+
+    <!--========================================= INICIO ================================================== -->
+
+    <section class="inicio" id="inicio">
+        
+        <div class="container_med inicio_med">
+
+            <div class="titulo_inicio">
+                <h2 data-section="inicio" data-value="titulo">¡Bienvenido a El Cuy!</h2>
+            </div>
+        
+
+            <div class="inicio_caja">
+
+                <img loading="lazy" src="assents/img/imagenes/ceviche.jpg" alt="ceviche" class="inicio_ceviche">
+
+                <div class="cajas_inicio">
+                    <div class="inicio_caja1"><p data-section="inicio" data-value="caja1">Esta es su fuente de deliciosas recetas peruanas e ingredientes de cocina de alta calidad.</p></div>
+                    <div class="inicio_caja2"><p data-section="inicio" data-value="caja2">Le muestro platos peruanos como Ceviche, Lomo Saltado, Pollo a la Brasa y Ensalada de Quinoa. También puedes contratarme como chef en Múnich y alrededores.</p></div>
+                </div>
+
+            </div>
+
+            <div class="inicio_mensaje">
+                <h2 data-section="inicio" data-value="mensaje">¡Diviértete!</h2>
+            </div>
+
+        </div>
+    </section>
+    <!--========================================= ACERCA DE ================================================== -->
+    <section class="acerca" id="acerca">
+
+        <div class="container_med acerca_med">
+
+            <div class="titulo_acerca">
+                <div class="caja_titulo_acerca">
+                    <h2 data-section="acerca-de" data-value="titulo">Sobre El Cuy</h2>
+                </div>  
+            </div>
+
+            <div class="acerca_cajas">
+                <div class="descripcion_acerca">
+                    <p data-section="acerca-de" data-value="descripcion">Hola, soy un cocinero de Perú que vive en Múnich, ama su comida nativa, crea <a href="#videos">videos</a> divertidos y está disponible para <a href="#videos">sesiones</a>de cocina. Mis platos más favoritos de Perú son el Ceviche y el Lomo Saltado.</p>
+                    <div class="platos">
+                        <img loading="lazy" src="assents/img/platos/ceviche.jpg" alt="ceviche" class="plato_ceviche">
+                        <img loading="lazy" src="assents/img/platos/lomo saltado.jpg" alt="lomo saltado" class="plato_lomo">
+                    </div> 
+                </div>
+
+                <div class="perfil">
+                    <img loading="lazy" src="assents/img/imagenes/djmh.webp" alt="perfil">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+     <!--========================================= VIDEOS ================================================== -->
+     <section class="videos" id="videos">
+
+        <div class="container_med">
+
+                <div class="videos_med">
+
+                    <div class="video_med_uno">
+                        <div class="caja_titulo_video">
+                            <h2 data-section="video" data-value="titulo">Videos y Recetas</h2>
+                            <div class="btn_youtube">
+                                <a href="https://www.youtube.com/@lacocinadelcuy" target="_blank" data-section="video" data-value="btn-youtube" >Canal de Youtube: <img loading="lazy" src="assents/svg/icons/youtube.svg" alt="youtube" class="youtube"></a>
+                            </div>
+                        </div>  
+
+                        <div class="cajas_videos">
+                            <div id="video1" onclick="mostrarCaja(1)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/iDtz_z5JnMA?si=ywotsQ_fzlizUP6R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card1-titulo">Pollada</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video2" onclick="mostrarCaja(2)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/FmuEKYl9ITw?si=ADe1jiiFhWtN4TRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card2-titulo">Ensalada Fitness de Quinoa</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video3" onclick="mostrarCaja(3)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/NQ77Bng2ueA?si=xurP2N7sEqSoinUt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card3-titulo">Papa con Atún</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video4" onclick="mostrarCaja(4)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/uf_Jy8iFCpc?si=kMsOGBx_aeq7P64w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card4-titulo">Pan con Chicharron</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video5" onclick="mostrarCaja(5)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/xYPdowjR9K4?si=BXcbctY7bGPLwcvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card5-titulo">Pollo a la brasa</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video6" onclick="mostrarCaja(6)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/PewPePJJTQw?si=bq7tAedbV2LgSaxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card6-titulo">Ceviche traditional</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video7" onclick="mostrarCaja(7)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/YyNZJS1VaBo?si=3fYG2LC6BmJRj5Zd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card7-titulo">Lomo Saltado</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video8" onclick="mostrarCaja(8)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/-RU6l4x3QP0?si=LMa4pNUUmm43ou3P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card8-titulo">Gran Canaria trip</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video9" onclick="mostrarCaja(9)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/aJMIaHY0l2g?si=xSKQRLeQ4jP2LQE_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card9-titulo">Cusco en Perú</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                            <div id="video10" onclick="mostrarCaja(10)" style="text-decoration: none;" class="card">
+                                <iframe class="pantalla" src="https://www.youtube.com/embed/VMw1BC6KhtQ?si=R6cjWGbEPUIYgR2-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="titulo">
+                                    <p data-section="video" data-value="card-preparacion">Preparación:</p>
+                                    <p data-section="video" data-value="card10-titulo">Wir kochen peruanisches Escabeche de Pescado aus Lima</p>
+                                </div>
+                                <div class="ver">
+                                    <div class="btn_ver"><p data-section="video" data-value="card-btn">Ver</p></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                        <div class="cajas_video_presentacion">
+                            <div class="regresar"><span class="btn_regresar" id="btn=regresar" onclick="ocultarCaja()"></span></div>
+                                <div class="caja_un_video" id="caja1">
+                                
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/iDtz_z5JnMA?si=ywotsQ_fzlizUP6R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">Titulo:</p>
+                                            <h2 data-section="video" data-value="card1-titulo">Pollada</h2>
+                                        </div>
+                                    </div>
+        
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion" data-section="video" data-value="receta1">
+                                            <p>Ingredientes para 4 personas:</p>
+                                            <br />
+                                            <p>Marinado</p>
+                                            <ul>
+                                                <li>Aceite</li>
+                                                <li>Vinagre</li>
+                                                <li>sal y pimienta</li>
+                                                <li>Orégano</li>
+                                                <li>Ajo</li>
+                                                <li>Comino</li>
+                                                <li>Ají Panca y Ají Amarillo (pimientos secos)</li>
+                                            </ul>
+                                            <br />
+                                            
+                                            <p>Ensalada</p>
+                                            <ul>
+                                            <li>Repollo / col blanco</li>
+                                            <li>Zanahorias</li>
+                                            <li>2 limon</li>
+                                            <li>sal y pimienta</li>
+                                            </ul>
+                                            <br />
+                                            <p>Papas y un pollo entero.</p> 
+                                            <br />
+                                            <p>Primero remojamos el pollo en agua con sal durante 2 horas.
+                                            Luego hago la marinada con una licuadora. Antes de eso, herví los aji panca secos, unos 5 minutos, para que se ablandaran.
+                                            Licuo el aji panca con 1 taza de aceite, 1 taza de vinagre, sal, pimienta, comino y órgano. Un vaso de cerveza también estaría bien.
+                                            A continuación agrego el ajo y lo pica todo.
+                                            </p>
+                                            <br />
+                                            <p>Corté el pollo en 4 trozos y los metí en la marinada.</p> 
+                                            <br />
+                                            <p>Después de un mínimo de 4 horas, se puede asar el pollo.</p>
+                                            <br />
+                                            <p>Para la ensalada, simplemente pique el repollo y ralle las zanahorias, agregue sal, pimienta y jugo de lima.</p> 
+                                            <br />
+                                            <p>Servir con las patatas cocidas.</p> 
+                                            <br />
+                                            <p>¡Buen provecho!</p>
+                                        </div>
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja2">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/FmuEKYl9ITw?si=ADe1jiiFhWtN4TRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card2-titulo">Ensalada Fitness de Quinoa</h2>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                            <p>Zutaten:</p>
+                                            <ul>
+                                                <li>Quinoa</li>
+                                                <li>2 Limetten</li>
+                                                <li>Paprika</li>
+                                                <li>Lauchzwiebeln</li>
+                                                <li>Koriander</li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja3">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/NQ77Bng2ueA?si=xurP2N7sEqSoinUt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card3-titulo">Papa con Atún</h2>
+                                        </div>
+                                    </div>
+    
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                            <p>Zutaten:</p>
+                                            <ul>
+                                                <li>1 Dose Thunfisch in Olivenöl</li>
+                                                <li>2 Limetten</li>
+                                                <li>1 rote Zwiebel</li>
+                                                <li>Koriander</li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja4">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/uf_Jy8iFCpc?si=kMsOGBx_aeq7P64w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card4-titulo">Pan con Chicharron</h2>
+                                        </div>
+                                    </div>
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                            <p>Zutaten:</p>
+                                            <ul>
+                                                <li>800gr Schweinebauch</li>
+                                                <li>2  Knoblauchzehen</li>
+                                                <li>Ingwer</li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja5">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/xYPdowjR9K4?si=BXcbctY7bGPLwcvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card5-titulo">Pollo a la brasa</h2>
+                                        </div>
+                                    </div>
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                            <ul>
+                                                <li>1 Hähnchen</li>
+                                                <li>5  Knoblauchzehen</li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja6">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/PewPePJJTQw?si=bq7tAedbV2LgSaxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card6-titulo">Ceviche traditional</h2>
+                                        </div>
+                                    </div>
+    
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                            <ul>
+                                                <li>1 Hähnchen</li>
+                                                <li>5  Knoblauchzehen</li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja7">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/YyNZJS1VaBo?si=3fYG2LC6BmJRj5Zd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card7-titulo">Lomo Saltado</h2>
+                                        </div>
+                                    </div> 
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                            <p>Zutaten:</p>
+                                            <ul>
+                                                <li>1 Rinderfilet</li>
+                                                <li>3 Limonen</li>
+                                                <li>1 rote Zwiebel</li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja8">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/-RU6l4x3QP0?si=LMa4pNUUmm43ou3P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card8-titulo">Gran Canaria trip</h2>
+                                        </div>
+                                    </div>
+    
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja9">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/aJMIaHY0l2g?si=xSKQRLeQ4jP2LQE_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card9-titulo">Cusco en Perú</h2>
+                                        </div>
+                                    </div>
+    
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="caja_un_video" id="caja10">
+                                    <div class="caja_video_presentado">
+                                        <iframe class="video_presentado" src="https://www.youtube.com/embed/VMw1BC6KhtQ?si=R6cjWGbEPUIYgR2-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <div class="titulo_video_presentado">
+                                            <p data-section="video" data-value="card-titulo">titulo</p>
+                                            <h2 data-section="video" data-value="card10-titulo">Wir kochen peruanisches Escabeche de Pescado aus Lima</h2>
+                                        </div>
+                                    </div>
+    
+                                    <div class="receta">
+                                        <div class="img_receta pollo"></div>
+                                        <div class="receta_descripcion">
+                                        <div class="boton_receta"><h2 data-section="video" data-value="receta-btn">mostrar más</h2></div> 
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="ver_mas">
+                            <div class="btn"><h2>Ver mas</h2></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+     </section>
+     <!--========================================= SERVICIO ================================================== -->
+     <section class="servicio" id="servicio">
+
+        <div class="container_med servicio_med">
+
+
+            <div class="caja_servicio">
+                <div class="titulo_servicio">
+                    <h2 data-section="servicio" data-value="titulo">Mi oferta</h2>
+                </div>
+            </div>
+            
+            <div class="contenido_servicio1">
+                <img loading="lazy" src="assents/img/imagenes/pfanne.jpg" alt="chef">
+                <div class="descripcion_servicio">
+                    <h2 data-section="servicio" data-value="descripcion-h2">¡Puedo cocinar para ti!</h2>
+                    <p data-section="servicio" data-value="descripcion-p">Si quieres disfrutar de mi deliciosa comida peruana y eres algo muy especial para, ponte en contacto conmigo. Estoy disponible en la zona de Munich.</p>
+                </div>    
+            </div>
+            <div class="contenido_servicio2">
+                   <div class="parte1">
+
+                    <h2 data-section="servicio" data-value="evento">Eventos</h2>
+
+                    <ul data-section="servicio" data-value="descripcion-evento" >
+                        <li>Fiesta de la familia</li>
+                        <li>Fiesta de cumpleaños</li>
+                        <li>Ceremonia de boda</li>
+                        <li>Fiesta de empresa, fiesta de Navidad</li>
+                    </ul>
+
+                    <div class="iconos">
+                        <img loading="lazy" src="assents/svg/icons/bowl-food-solid.svg" alt="plato">
+                        <img loading="lazy" src="assents/svg/icons/martini-glass-solid.svg" alt="licor">
+                        <img loading="lazy" src="assents/svg/icons/cake-candles-solid.svg" alt="pastel">
+                        <img loading="lazy" src="assents/svg/icons/candy-cane-solid.svg" alt="candy">
+                    </div>
+                   </div>
+
+                
+                   <div class="parte2">
+                        <h2 data-section="servicio" data-value="platos">Platos</h2>
+                        <div class="descripcion_platos" data-section="servicio" data-value="descripcion-platos">
+                            <p>Discuto con usted un hermoso menú para su evento con una amplia selección de platos.</p>
+                            <ul>
+                                <li>Platos de carne: pollo, ternera y cerdo</li>
+                                <li>Platos de pescado</li>
+                                <li>Platos vegetarianos - también puedo modificar los platos de carne con un sustituto</li>
+                                <li>Sopas</li>
+                                <li>Ensaladas</li>
+                                <li>Dulces</li>
+                            </ul>
+                            <p>También se ofrecen bebidas y cócteles peruanos. Yo proporciono todos los ingredientes, incluso los que sólo están disponibles en tiendas especializadas.</p>
+                        </div>
+                   </div>
+
+            </div>
+            <div class="servicio_mensaje">
+                <div class="servicio_mensaje_caja">
+                    <h2 data-section="servicio" data-value="mensaje">¡Es un honor cocinar para usted!</h2>
+                </div>
+           </div>
+
+        </div>
+
+     </section>
+     <!--========================================= CONTACTO ================================================== -->
+     <section class="contacto" id="contacto">
+
+        <div class="container_med contacto_med">
+
+            <div class="contacto_titulo">
+                <div class="contacto_titulo_caja">
+                    <h2 data-section="contacto" data-value="titulo">¡ponte en contacto conmigo!</h2>
+                </div>
+            </div>
+
+            <div class="contacto_seccion">
+                <form action="api/sendemail" method="post"   class="formulario">
+                    <input type="text" id="name" name="name" class="name" placeholder="name">
+                    <input type="email" id="email" name="email" class="email" placeholder="email">
+                    <textarea id="message" name="message" rows="4" cols="30" class="message" placeholder="message"></textarea>
+                    <input type="submit" value="send" class="submit">
+                </form>
+
+                <div class="contacto_informacion">
+                    <h2>David Josué Morón Hinostroza</h2>
+                    <div class="direccion_cel">
+                        <div class="direccion"><img loading="lazy" src="assents/svg/icons/location-dot-solid.svg" alt="localitation" class="icon"><p>Augsburger Str. 47 </br> 85221 Dachau </br> Alemania</p></div>
+                        <div class="telefono"><img loading="lazy" src="assents/svg/icons/whatsapp.svg" alt="cel" class="icon"><p>+49 176 / 7 04 24 116</p></div>
+                    </div>
+                    <div class="redes">
+                        <a class="red_instagram" href="https://www.instagram.com/lacocinadelcuyenmunich/"><img loading="lazy" src="assents/svg/icons/instagram.svg" alt="instagram" class="icon"><p>lacocinadelcuyenmunich</p></a>
+                        <a class="red_youtube" href="https://www.youtube.com/@lacocinadelcuy"><img loading="lazy" src="assents/svg/icons/youtube_black.svg" alt="youtube" fill="black" class="icon"><p>La Cocina del Cuy en Munich</p></a>
+                        <a class="red_correo" href="josue.david.moron.81@gmail.com"><img loading="lazy" src="assents/svg/icons/envelope-solid.svg" alt="correo"  class="icon"><p>josue.david.moron.81@gmail.com</p></a>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+     </section>
+      <!--========================================= FOOTER ================================================== -->
+      <footer>
+        <h2 data-section="footer" data-value="pie">Derechos reservados El Cuy  - 2024</h2>
+      </footer>
+      <script src="javascript/language.js"></script>
+      <script src="javascript/main.js"></script>
+      <script type="text/javascript">
+        changeLanguage("de");
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
